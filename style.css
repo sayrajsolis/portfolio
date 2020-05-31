@@ -15,6 +15,7 @@
 	z-index: -1;
 	width: 60%; height: 60%;
 	animation-fill-mode: forwards;
+	
 }
 
 @keyframes two{
@@ -92,6 +93,29 @@
 	font-size: 1.3em;
 }
 
+#trait1 {
+	width: 30%;
+	text-align: center;
+	font-size: 1.3em;
+}
+#trait1 img{
+	border-radius: 25px;
+}
+div#trait img{
+			transform: perspective(600px) rotateY(0deg);
+	transform-origin: left center;
+	box-shadow: 5px 5px 10px rgb(101, 101, 101);	
+	transition: all 1s linear;
+	z-index: 2;
+	margin-left: 20px; margin-right: 20px;
+	width: 40%;
+}
+div#trait img:hover{
+	transform: perspective(600px) rotateY(-180deg);
+	box-shadow: -5px 5px 10px rgb(101, 101, 101);	
+
+}
+
 #i-am{
 	text-align: center;
 	font-size: 1.4em;
@@ -102,4 +126,9 @@
 	padding-top: 50px;
 	font-family: monospace;
 	font-size: 1.1em;
+}
+
+#bio{
+	font-size: 1em;
+	padding-top: 20px;
 }
