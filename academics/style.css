@@ -1,23 +1,29 @@
+
 .white{
 	background-color: antiquewhite;
 }
-h2{
-	background-color: dodgerblue;
-	border-radius: 30px;
-	text-align: center;
-	color: white;
-	  font-family: Arial, Helvetica, sans-serif;
-}
+/*______________________EDUCATION_____________________*/
+
+
 .education{
 	border-radius: 10px;
 	margin-left: 0; margin-right: 0;
 	background-color: antiquewhite;
 }
 
+div.education h2{
+	background-color: dodgerblue;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	  font-family: Arial, Helvetica, sans-serif;
+}
+
 .desc{
 	display: flex;
 	justify-content: center;
 	border-radius: 10px;
+	padding-bottom: 10px;
 }
 .desc img{
 	border-radius: 50%;
@@ -93,7 +99,30 @@ h2{
 	text-align: center;
 	padding: 5px 8px 5px 8px;
 }
-/*______________________________________________________*/
+
+
+/*__________________________CLASSES_________________________*/
+.classes{
+	border-radius: 10px;
+	margin-left: 0; margin-right: 0;
+	background-color: antiquewhite;
+}
+
+.classes h2{
+	background-color: dodgerblue;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*__________________________LYNDA_________________________*/
+#subjects{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*__________________________NAV BAR____________________________*/
 ul.navb {
   list-style-type: none;
   margin: 0;
