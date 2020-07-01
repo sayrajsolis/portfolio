@@ -7,6 +7,7 @@
 </head>
 <body>
 	<!--------------NAV BAR------------>
+	<header class="sticky">
 <div class="pond3">
 	<div class="nav-left">
 		<p id="name">S A Y R A</p>
@@ -28,9 +29,12 @@
 		</ul>
 	</div>
 </div>
-
+</header>
 <!------------------------------->
+	<div id="empty">
+	</div>
 <div class="education"><!-----------------------------EDUCATION-->
+
 	<h2>Education</h2>
 	<div class="desc">
 		<img src="img/hunter.jpg" id="hunter-logo">
@@ -297,5 +301,11 @@
 		<li>Photoshop Retouching: Beauty Portraits</li>
 		<li>Photoshop Retouching: Faces</li>
 	</ul>
+<script type ="text/javascript">
+	window.addEventListener("scroll", finction(){
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY>0)
+	})
+</script>
 </body>
 </html>

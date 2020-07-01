@@ -182,6 +182,12 @@ div.education h2{
 }
 
 /*__________________________NAV BAR____________________________*/
+#empty{
+	height: 45px;
+}
+header{
+	position: fixed; top:0;left: 0; width: 100%;
+}
 ul.navb {
   width: 100%; 
   height: 100%;
@@ -195,7 +201,8 @@ ul.navb {
   justify-content: center;
   background-color: white;
   top:0;
-  position: -webkit-sticky; /* Safari */ position: sticky;
+  position: -webkit-sticky; /* Safari */ 
+  position: sticky;
 }
 
 
