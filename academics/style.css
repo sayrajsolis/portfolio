@@ -138,10 +138,9 @@ div.education h2{
 	text-align: center;
 	padding: 5px 8px 5px 8px;
 }
-}
 
 .learnings p{
-	margin: 0; padding: 0px 0px 10px 20px;
+	margin: 0; padding: 0px 0px 0px 20px;
 }
 
 .column-grid{
@@ -169,7 +168,7 @@ div.education h2{
 	display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 0px;
-    padding-top: 10px;
+    padding-top: 10%;
 }
 
 .grid3 img{
@@ -214,7 +213,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-  display: inline-block;  
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -223,7 +222,7 @@ li.dropdown {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
-  top:50px;
+  top:40px;
 }
 
 .dropdown-content a {
